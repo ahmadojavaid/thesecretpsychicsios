@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FiraSans-Medium.otf">
+            <string>FiraSans-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DeclineReason" customModule="Psychic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P6L-Bv-iNS">
+                    <rect key="frame" x="20" y="148.5" width="335" height="370"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please describe reasone of decline" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meA-Fv-9Pr">
+                            <rect key="frame" x="10" y="20" width="315" height="20"/>
+                            <fontDescription key="fontDescription" name="FiraSans-Medium" family="Fira Sans" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y1R-JD-ej3" customClass="CustomView" customModule="Psychic" customModuleProvider="target">
+                            <rect key="frame" x="10" y="50" width="315" height="180"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EWf-2K-U8l">
+                                    <rect key="frame" x="2" y="2" width="311" height="176"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Reason of decline"/>
+                                    </userDefinedRuntimeAttributes>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="180" id="5bT-Cx-ouk"/>
+                                <constraint firstAttribute="trailing" secondItem="EWf-2K-U8l" secondAttribute="trailing" constant="2" id="SPi-rO-pjK"/>
+                                <constraint firstItem="EWf-2K-U8l" firstAttribute="leading" secondItem="Y1R-JD-ej3" secondAttribute="leading" constant="2" id="WxB-0j-Xpe"/>
+                                <constraint firstItem="EWf-2K-U8l" firstAttribute="top" secondItem="Y1R-JD-ej3" secondAttribute="top" constant="2" id="c9o-3L-gz7"/>
+                                <constraint firstAttribute="bottom" secondItem="EWf-2K-U8l" secondAttribute="bottom" constant="2" id="voe-hx-aCP"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fL-21-qqB">
+                            <rect key="frame" x="10" y="240" width="315" height="50"/>
+                            <color key="backgroundColor" red="0.86274509799999999" green="0.2784313725" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="7Yb-ev-nGu"/>
+                                <constraint firstAttribute="height" constant="50" id="qbp-rD-L4a"/>
+                            </constraints>
+                            <state key="normal" title="Submit Reason">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAU-BE-JMP">
+                            <rect key="frame" x="10" y="298" width="315" height="50"/>
+                            <color key="backgroundColor" red="0.3921568627" green="0.75686274509999996" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="7qt-iw-WTf"/>
+                                <constraint firstAttribute="height" constant="50" id="KVw-RZ-ld0"/>
+                            </constraints>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Y1R-JD-ej3" firstAttribute="top" secondItem="meA-Fv-9Pr" secondAttribute="bottom" constant="10" id="431-fT-heA"/>
+                        <constraint firstItem="8fL-21-qqB" firstAttribute="top" secondItem="Y1R-JD-ej3" secondAttribute="bottom" constant="10" id="8yB-BS-ijq"/>
+                        <constraint firstAttribute="trailing" secondItem="Y1R-JD-ej3" secondAttribute="trailing" constant="10" id="H5m-Qm-3eS"/>
+                        <constraint firstItem="NAU-BE-JMP" firstAttribute="leading" secondItem="P6L-Bv-iNS" secondAttribute="leading" constant="10" id="KID-Ga-uZv"/>
+                        <constraint firstItem="8fL-21-qqB" firstAttribute="leading" secondItem="P6L-Bv-iNS" secondAttribute="leading" constant="10" id="KWs-JA-l2J"/>
+                        <constraint firstAttribute="height" constant="370" id="NRi-SE-v5K"/>
+                        <constraint firstAttribute="trailing" secondItem="meA-Fv-9Pr" secondAttribute="trailing" constant="10" id="PE7-KE-P06"/>
+                        <constraint firstAttribute="trailing" secondItem="8fL-21-qqB" secondAttribute="trailing" constant="10" id="Rnc-eT-wBC"/>
+                        <constraint firstItem="Y1R-JD-ej3" firstAttribute="top" secondItem="meA-Fv-9Pr" secondAttribute="bottom" constant="10" id="U6f-XO-nGi"/>
+                        <constraint firstItem="meA-Fv-9Pr" firstAttribute="top" secondItem="P6L-Bv-iNS" secondAttribute="top" constant="20" id="XIz-Hg-1KI"/>
+                        <constraint firstItem="Y1R-JD-ej3" firstAttribute="leading" secondItem="P6L-Bv-iNS" secondAttribute="leading" constant="10" id="kGp-ne-ehd"/>
+                        <constraint firstItem="meA-Fv-9Pr" firstAttribute="leading" secondItem="P6L-Bv-iNS" secondAttribute="leading" constant="10" id="lM8-Gk-9TK"/>
+                        <constraint firstAttribute="trailing" secondItem="NAU-BE-JMP" secondAttribute="trailing" constant="10" id="wyW-me-7jO"/>
+                        <constraint firstItem="NAU-BE-JMP" firstAttribute="top" secondItem="8fL-21-qqB" secondAttribute="bottom" constant="8" id="zH9-nd-deB"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.16272450535341385" green="0.16558152730441272" blue="0.17889435279187815" alpha="0.62652504280821919" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="P6L-Bv-iNS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="7hN-iJ-lc5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="P6L-Bv-iNS" secondAttribute="trailing" constant="20" id="Ael-EK-p8K"/>
+                <constraint firstItem="P6L-Bv-iNS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="vHi-k5-Wds"/>
+                <constraint firstItem="P6L-Bv-iNS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zEO-pA-NeU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cancelBtn" destination="NAU-BE-JMP" id="way-DA-Urd"/>
+                <outlet property="reasonText" destination="EWf-2K-U8l" id="dSw-hK-v6l"/>
+                <outlet property="submitReasonBtn" destination="8fL-21-qqB" id="YSk-dC-wXE"/>
+            </connections>
+        </view>
+    </objects>
+</document>

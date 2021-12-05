@@ -1,0 +1,142 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - CropViewController (2.4.0)
+  - Firebase/CoreOnly (5.15.0):
+    - FirebaseCore (= 5.1.10)
+  - Firebase/Messaging (5.15.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.2.2)
+  - FirebaseAnalyticsInterop (1.1.0)
+  - FirebaseAuth (5.2.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.1.10):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.3.0):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseMessaging (3.2.2):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GoogleUtilities/Environment (5.3.6)
+  - GoogleUtilities/Logger (5.3.6):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Reachability (5.3.6):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.6):
+    - GoogleUtilities/Logger
+  - GrowingTextView (0.6.1)
+  - GTMSessionFetcher/Core (1.2.1)
+  - IQKeyboardManager (5.0.8)
+  - KMPlaceholderTextView (1.4.0)
+  - Nuke (7.5.2)
+  - ProgressHUD (2.60)
+  - Protobuf (3.6.1)
+  - RangeSeekSlider (1.7.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.0.0)
+  - Toast-Swift (4.0.1)
+  - TTRangeSlider (1.0.6)
+  - "UITextView+Placeholder (1.2.1)"
+
+DEPENDENCIES:
+  - Alamofire-SwiftyJSON
+  - CropViewController
+  - Firebase/Messaging
+  - FirebaseAuth
+  - FirebaseCore
+  - GoogleSignIn
+  - GrowingTextView (= 0.6.1)
+  - IQKeyboardManager (~> 5.0.0)
+  - KMPlaceholderTextView (~> 1.4.0)
+  - Nuke (~> 7.5)
+  - ProgressHUD (~> 2.60)
+  - RangeSeekSlider
+  - SVProgressHUD (~> 2.2)
+  - Toast-Swift (~> 4.0)
+  - TTRangeSlider
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - CropViewController
+    - Firebase
+    - FirebaseAnalyticsInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GrowingTextView
+    - GTMSessionFetcher
+    - IQKeyboardManager
+    - KMPlaceholderTextView
+    - Nuke
+    - ProgressHUD
+    - Protobuf
+    - RangeSeekSlider
+    - SVProgressHUD
+    - SwiftyJSON
+    - Toast-Swift
+    - TTRangeSlider
+    - "UITextView+Placeholder"
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  CropViewController: a090820b15fc3da68e694d7c192a4708c576828b
+  Firebase: 8bb9268bff82374f2cbaaabb143e725743c316ae
+  FirebaseAnalyticsInterop: e5f21be9af6548372e2f0815834ff909bff395a2
+  FirebaseAuth: 02e969ff430e156d99d4cb842d77b806b71ad7bb
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: 35747502d9e8c6ee217385ad04446c7c2aaf9c5c
+  FirebaseInstanceID: e2fa4cb35ef5558c200f7f0ad8a53e212215f93e
+  FirebaseMessaging: b412996f6a09337d232bb3a6676ce4d1f353d024
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
+  GrowingTextView: 335aefa45df7df06b01edede1363414d6ee5d6bc
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
+  KMPlaceholderTextView: 2206c3df39979e9396e2d96fa9f427a8951121b0
+  Nuke: 0350d346a688426e8f2331253ef28dc2fc4f6178
+  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  RangeSeekSlider: 0386c5a9aa5ebcb2fa5238e8a627280cf46c7c0a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+  TTRangeSlider: 78188bea83f6471a06f75adbc88da5e990baeafe
+  "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
+
+PODFILE CHECKSUM: 89c2b24b85f53611717fbb889961c3d48bfa2f4f
+
+COCOAPODS: 1.6.1

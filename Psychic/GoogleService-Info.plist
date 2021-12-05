@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>250084838962-81pcad94h97tgm95fa4aegp9u4bbcv2g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.250084838962-81pcad94h97tgm95fa4aegp9u4bbcv2g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAFrW8vgTAOPf_kEyUT2DGoOlsCxHyqrWc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>250084838962</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jobesk.thesecretpsychics</string>
+	<key>PROJECT_ID</key>
+	<string>secretpsychic-abc72</string>
+	<key>STORAGE_BUCKET</key>
+	<string>secretpsychic-abc72.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:250084838962:ios:3692ace7e99984c5</string>
+	<key>DATABASE_URL</key>
+	<string>https://secretpsychic-abc72.firebaseio.com</string>
+</dict>
+</plist>
